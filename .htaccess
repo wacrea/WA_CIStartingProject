@@ -1,0 +1,6 @@
+#CodeIgniter
+Options -Indexes
+RewriteEngine on
+RewriteBase /CIStartingProject
+RewriteCond $1 !^(index\.php|assets/|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
